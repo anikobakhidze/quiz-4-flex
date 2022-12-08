@@ -1,0 +1,53 @@
+.flex {
+  display: flex;
+}
+.color-one {
+  background-color: #0071bc;
+}
+.color-two {
+  background-color: #29abe2;
+}
+.color-three {
+  background-color: #00a99d;
+}
+.container {
+  flex-direction: column;
+  width: 1240px;
+  height: 1240px;
+}
+.first-line {
+  margin-bottom: 10px;
+}
+
+.box1 {
+  width: 610px;
+  height: 610px;
+  margin-right: 10px;
+}
+.box2 {
+  flex-direction: column;
+}
+.sub-box1 {
+  margin-right: 10px;
+}
+.sub-box1,
+.sub-box2 {
+  width: 300px;
+  height: 300px;
+}
+.sub-box3 {
+  margin-top: 10px;
+  width: 610px;
+  height: 300px;
+}
+.box4 {
+  flex-direction: column;
+  margin-right: 10px;
+}
+.sub-box4-first {
+  margin-bottom: 10px;
+}
+.box5 {
+  width: 610px;
+  height: 610px;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>flex</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="container flex">
+      <div class="first-line flex">
+        <div class="box1 color-one"></div>
+        <div class="box2 flex">
+          <div class="sub-wrapper-box2 flex">
+            <div class="sub-box1 color-two"></div>
+            <div class="sub-box2 color-two"></div>
+          </div>
+          <div class="sub-box3 color-three"></div>
+        </div>
+      </div>
+      <div class="second-line flex">
+        <div class="box4 flex">
+          <div class="sub-box4-first flex">
+            <div class="sub-box1 color-two"></div>
+            <div class="sub-box2 color-two"></div>
+          </div>
+          <div class="sub-box4-first flex">
+            <div class="sub-box1 color-two"></div>
+            <div class="sub-box2 color-two"></div>
+          </div>
+        </div>
+        <div class="box5 color-one"></div>
+      </div>
+    </div>
+  </body>
+</html>
